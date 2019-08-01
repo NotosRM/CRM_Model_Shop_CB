@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmBL", "CrmBL\CrmBL.csproj", "{C1E44E32-E1D2-423E-93A3-29D5559EF1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmUi", "CrmUi\CrmUi.csproj", "{8497283A-CE28-4C31-AC40-35194A0FBFCC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1E44E32-E1D2-423E-93A3-29D5559EF1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E44E32-E1D2-423E-93A3-29D5559EF1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E44E32-E1D2-423E-93A3-29D5559EF1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E44E32-E1D2-423E-93A3-29D5559EF1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8497283A-CE28-4C31-AC40-35194A0FBFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8497283A-CE28-4C31-AC40-35194A0FBFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8497283A-CE28-4C31-AC40-35194A0FBFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8497283A-CE28-4C31-AC40-35194A0FBFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
